@@ -1,0 +1,423 @@
+body{
+
+}
+
+.container{
+	
+	width: 100%;
+}
+/********First display***********/
+header{
+	height: 755px;
+	background-image: url(../images/head_bg.png);
+	background-position: center;
+	background-repeat: no-repeat;
+
+}
+
+
+ul,li{
+	display: block;
+	padding-top:12px;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 800;
+	font-size:13px;	
+}
+
+img{
+	border: 0;
+}
+
+.logo{
+	padding-top:12px;
+}
+.logo__name>h2{
+	padding-top:20px;
+	font-family: 'Raleway',sans-serif;
+	color: #1ab798;
+	font-weight: 600;
+	font-size: 30px;
+}
+
+a{
+	color: #c3c2c3;
+	
+}
+
+a:hover{
+	color: #000000;
+	text-decoration: none;
+}
+
+
+.menu__item{
+	margin: 10px 11px;
+	
+}
+
+.top{
+	padding-top: 40px;
+}
+
+.bg{
+	background-color: #fff;
+	height: 80px;
+	width: 100%;
+}
+
+.offer{
+	padding-top: 170px;
+}
+
+.offer__title>h1{
+	font-family: 'Raleway',sans-serif;
+	color:#ffffff;
+	font-weight: bold;
+	font-size: 42px;
+}
+
+.offer__intro{
+	font-size: 22px;
+	color: #ffffff;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 600;
+}
+
+.offer__text{
+	font-size: 16px;
+	color:#c0c5cc;
+	padding-top: 50px;
+}
+
+.button{
+	margin-top: 80px;
+	margin-left: 15px;
+	width: 213px;
+	height: 50px;
+	background-color:#1ab798;
+	border-radius: 6px;
+}
+
+.button__download>i{
+	color: #ffffff;
+	padding-top: 8px;
+	
+    
+}
+
+.button__download>p{
+	font-weight: 400;
+	padding-top: 8px;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 22px;
+	color: #ffffff
+}
+
+.button:hover{
+	animation: button_anim 1s;
+}
+
+.mobile{
+	margin-top: 100px;
+	margin-left: 40px;
+
+}
+
+/********Second display*************/
+
+.features__title>img{
+	margin-top: 130px;
+	position: absolute;
+	
+	
+}
+
+.features__title>h2{
+	font-family: 'Raleway',sans-serif;
+	color: #1ab798;
+	font-weight: 700;
+	font-size: 28px;
+	padding-top: 115px;
+}
+
+.features__text>p{
+	text-align: center;
+	width: 82%;
+	margin-top: 75px;
+	font-size: 18px;
+	font-family: 'Open Sans',sans-serif;
+	font-weight: 700;
+}
+.mobile_picture{
+position: absolute;
+margin-left: 350px;
+margin-top: 190px;
+	}
+
+.features__left-list{
+margin-left: 108px;
+margin-top: 105px;
+
+	
+}
+.features__left-list>img{
+	position: absolute;
+	margin-left: -90px;
+	margin-top: -35px;
+}
+.features__left-list>p{
+text-align: left;	
+font-size:13px;
+font-family: 'Open Sans',sans-serif;
+}
+
+/********Third display*************/
+
+.video{
+	background-image: url(../images/video_bg.png);
+	height: 450px;
+	width: 100%;
+	margin-top: 118px;
+	background-position: center;
+	background-repeat: no-repeat;
+	
+}
+.video__text{
+	padding-top: 74px;
+}
+.video__text>h2{
+	font-family: 'Raleway',sans-serif;
+	color: #000000;
+	font-weight: 600;
+	font-size: 28px;
+}
+
+.video__text>p{
+	font-size:16px;
+	font-family: 'Open Sans',sans-serif;
+	color:#c8f4f9;
+
+}
+
+.video__list{
+	margin-left: -70px;	
+
+}
+.video__list>li{
+	display:inline;
+	list-style: none;
+	margin-left: 29px;
+
+	
+}
+
+.video__list img:hover{
+	transition: 1.0s;
+	
+	filter: brightness(0.5);
+}
+
+iframe{
+	border: none;
+	margin-top: 72px;
+	margin-left: 30px;
+	border-radius: 7px;
+
+}
+/********Fourth display*************/
+
+.team{
+	margin-top: 106px;
+}
+
+.block1,
+.block2,
+.block3,
+.block4{
+	position:absolute;
+    background:#32bfa3;
+    display:none;
+    opacity: 0.71;
+    width: 270px;
+    height: 300px;
+    margin-top: -300px;
+    cursor:default;
+}
+
+.block3{
+	width: 267px;
+}
+
+.block1 h5,
+.block2 h5,
+.block3 h5,
+.block4 h5{
+	text-align: center;
+	color: #ffffff;
+	font-size:16px;
+	font-family: 'Open Sans',sans-serif;
+	font-weight: bold;
+	padding-top: 25px;
+	width: 240px;
+	padding-left: 40px;
+}
+
+.block1 p,
+.block2 p,
+.block3 p,
+.block4 p{
+	text-align: center;
+	color: #ffffff;
+	font-size:16px;
+	font-family: 'Open Sans',sans-serif;
+	width: 240px;
+	padding-left: 40px;
+}
+
+
+.block1 li,
+.block2 ul li,
+.block3 ul li,
+.block4 ul li{
+   float: left;
+   padding-top:-80px;
+   padding-left: 18px;
+}
+.team__pictures1:hover .block1{
+	display: block;
+}
+
+.team__pictures2:hover .block2{
+	display: block;
+}
+
+.team__pictures3:hover .block3{
+	display: block;
+}
+.team__pictures4:hover .block4{
+	display: block;
+}
+
+.block1 a>img:hover,
+.block2 a>img:hover,
+.block3 a>img:hover,
+.block4 a>img:hover{
+	transition: 0.5s;
+	background-color: #125;
+}
+
+.team__pictures1--name{
+	text-align: center;
+	padding-top: 15px;	
+}
+.team__pictures1--name h5{
+	font-size:16px;
+	font-family: 'Open Sans',sans-serif;
+	font-weight: 700;
+}
+
+.team__pictures1--name p{
+	font-size:13px;
+	font-family: 'Open Sans',sans-serif;
+}
+
+
+/**	
+ ********Fifth display*************
+ */
+.customer__title>img{
+	margin-top: 110px;
+	position: absolute;
+	width: 610px;
+
+	
+}
+.customer__title>h2{
+	font-family: 'Raleway',sans-serif;
+	color: #1ab798;
+	font-weight: 700;
+	font-size: 28px;
+	padding-top: 95px;
+}
+
+.item{
+	margin-top: 90px;
+	text-align: center;
+
+}
+/**
+ * Carousel with customer's say
+ */
+.my_carousel{
+	margin-top: 70px;
+}
+
+.slide__text{
+	text-align: center;
+	width: 800px;
+	height: 400px;
+	font-size:18px;
+	font-family: 'Open Sans',sans-serif;
+}
+
+.slide__text-title{
+	font-size: 14px;
+	margin-bottom:50px; 
+}
+
+.carousel-indicators li{
+	background-color:#d4d3d4;
+
+}
+
+.carousel-indicators li.active{
+	background-color:#1ab798;
+}
+
+
+
+/******Button animation******/
+@keyframes button_anim {
+0%, 20%, 60%, 100% {
+-webkit-transform: translateY(0);
+transform: translateY(0);
+}
+40% {
+-webkit-transform: translateY(-25px);
+transform: translateY(-25px);
+}
+80% {
+-webkit-transform: translateY(-15px);
+transform: translateY(-15px);
+}
+}
+/***************************/
+
+display:-moz-box;
+display:-ms-box;
+display:-webkit-box;
+display:box;
+-webkit-box-orient:vertical;
+display:-moz-flex;
+display:-ms-flex;
+display:-webkit-flex;
+display:flex;
+
+-moz-flex-direction:column;
+-ms-flex-direction:column;
+-webkit-flex-direction:column;
+flex-direction:column;
+
+
+
+
+
+
+/*
+<div class="item">
+          <img src="images/customer_pic.png" alt="">
+          <h5>Jon Doe</h5>
+          <p>Company Inc.</p>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat facere, mollitia dignissimos laborum obcaecati quod nemo. Numquam, voluptas illo quas quibusdam sit, consectetur quae natus nemo iste. Sit, ullam, non.</p>
+        </div>
+ */
