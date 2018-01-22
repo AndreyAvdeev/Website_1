@@ -2,16 +2,15 @@ body{
 
 }
 
-.container{
-	
-	width: 100%;
-}
+
 /********First display***********/
 header{
 	height: 755px;
 	background-image: url(../images/head_bg.png);
 	background-position: center;
 	background-repeat: no-repeat;
+	padding-top: 40px;
+
 
 }
 
@@ -66,7 +65,7 @@ a:hover{
 }
 
 .offer{
-	padding-top: 170px;
+	padding-top: 180px;
 }
 
 .offer__title>h1{
@@ -151,7 +150,7 @@ a:hover{
 .mobile_picture{
 position: absolute;
 margin-left: 350px;
-margin-top: 190px;
+margin-top: 170px;
 	}
 
 .features__left-list{
@@ -228,13 +227,15 @@ iframe{
 
 .team{
 	margin-top: 106px;
+	text-align: center;
+
 }
 
 .block1,
 .block2,
 .block3,
 .block4{
-	position:absolute;
+	
     background:#32bfa3;
     display:none;
     opacity: 0.71;
@@ -247,7 +248,7 @@ iframe{
 .block3{
 	width: 267px;
 }
-
+ 
 .block1 h5,
 .block2 h5,
 .block3 h5,
@@ -320,6 +321,7 @@ iframe{
 	font-size:13px;
 	font-family: 'Open Sans',sans-serif;
 }
+
 
 
 /**	
@@ -441,6 +443,187 @@ iframe{
 
 }
 
+input{
+	height: 44px;
+	width: 250px;
+	margin-left: 65px;
+	margin-top: 65px;
+	border-radius: 5px;
+}
+
+textarea{
+	margin-top: 30px;
+	margin-left: 65px;
+	resize: none;
+	overflow: hidden;
+	width: 100%;
+	border-radius: 5px;
+}
+
+
+.header__rights p{
+	margin-top: 140px;
+	color: #959595;
+	font-family: 'Open Sans',sans-serif;
+	font-size: 14px;
+
+}
+
+
+/**
+ * Media queries
+ */
+
+@media screen and (max-width: 1199px) {
+	.logo__name>h2{
+	padding-left:80px;
+}
+	.menu__pos{	
+	margin-right: 60px;
+	}
+	.button{
+	min-width: 200px;
+	}
+
+  .mobile_picture{
+	margin-left: 270px;
+	margin-top: 190px;
+	}
+
+	.features__left-list{
+		margin-left: 70px;
+	}
+	.features__left-list>img{
+		margin-left: -50px;
+	}
+	
+	.header__rights p{
+		margin-top: 30px;
+	}
+
+.block1,
+.block2,
+.block3,
+.block4{
+	
+    background:#32bfa3;
+    display:none;
+    opacity: 0.71;
+    width: 270px;
+    height: 300px;
+    margin-top: -300px;
+    cursor:default;
+}
+
+.block1 h5,
+.block2 h5,
+.block3 h5,
+.block4 h5{
+	width: 220px;
+	padding-left: 30px;
+}
+
+.block1 p,
+.block2 p,
+.block3 p,
+.block4 p{
+	width: 220px;
+	padding-left: 30px;
+}
+.block1 ul,
+.block2 ul,
+.block3 ul,
+.block4 ul{
+	width: 220px;
+	padding-left: 30px;
+}
+
+textarea{
+width: 90%;	
+}
+}
+
+@media screen and (max-width: 991px){
+	.mobile{
+		margin-top: -400px;
+		margin-left: 380px;
+	}
+
+
+	
+.bg ul,li{
+	display: block;
+	margin-top:-140px;	
+}
+
+.logo{
+	padding-top:12px;
+}
+
+.offer{
+	padding-top: 120px;
+}
+
+.mobile_picture{
+	display: none;
+}
+
+iframe{
+	border: none;
+	margin-top: -100px;
+	margin-left: 300px;
+	border-radius: 7px;
+	height: 240px;
+
+}
+.block1,
+.block2,
+.block3,
+.block4{
+	
+    margin-left: 30px;
+}
+
+.block1 ul,
+.block2 ul,
+.block3 ul,
+.block4 ul{
+	display: none;
+}
+.slide__text{
+	height: 480px;
+
+}
+input{
+	height: 44px;
+	width: 250px;
+	margin-left: 1px;
+	margin-top: 60px;
+	border-radius: 5px;
+}
+
+textarea{
+	margin-top: 40px;
+	margin-left: 1px;
+	overflow: hidden;
+	width: 95%;
+	border-radius: 5px;
+}
+.contact__description ul{
+	float: left;
+	padding-left: 60px;
+}
+
+.contact__description li{
+	
+	margin-left: 20px;
+}
+}
+
+
+
+ 
+
 
 /******Button animation******/
 @keyframes button_anim {
@@ -473,7 +656,6 @@ display:flex;
 -ms-flex-direction:column;
 -webkit-flex-direction:column;
 flex-direction:column;
-
 
 
 
